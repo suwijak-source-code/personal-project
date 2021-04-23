@@ -1,0 +1,23 @@
+.loginForm {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.username_form {
+  margin: 5px;
+  width: max-content;
+}
+
+.password_form {
+  margin: 5px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}

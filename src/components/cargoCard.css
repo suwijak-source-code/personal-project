@@ -1,0 +1,41 @@
+.cardboxs {
+  display: flex;
+  flex-shrink: 72%;
+  padding-top: 15px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cargo-card-container {
+  /* box-shadow: 4px 8px 8px silver; */
+
+  /* border-radius: 5px; */
+  margin: auto;
+
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+
+  flex-flow: wrap;
+  width: 300px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  display: flex;
+}
+
+.cargo-card-name {
+  padding: 2px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-flow: nowrap;
+}

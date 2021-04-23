@@ -1,0 +1,52 @@
+.content_form {
+  border-radius: 20px;
+  width: 1400px;
+  display: flex;
+  margin: 50px;
+  /* background-color: lightcoral; */
+  justify-content: center;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightcyan;
+  border: #808080;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.welcometext {
+  /* background-color: lightseagreen; */
+}
+
+.picture_form {
+  width: auto;
+  margin: 20px;
+  /* background-color: lightseagreen; */
+}
+
+.text_form {
+  width: auto;
+  box-sizing: 400px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 15px;
+  /* background-color: lightseagreen; */
+}
+
+.exhibition_form {
+  margin: 20px;
+  /* background-color: lightseagreen; */
+}
+
+.button {
+  width: max-content;
+  margin: 20px;
+  border-radius: 10px;
+  color: #5a5b60;
+  background-color: #f58465;
+  align-content: center;
+}
