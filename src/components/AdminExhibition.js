@@ -1,6 +1,6 @@
 import { Input } from "antd";
 import { useState } from "react";
-import { useHistory } from "react";
+import { useHistory } from "react-router-dom";
 import axios from "../config/axios";
 
 const CreateExhibition = () => {
