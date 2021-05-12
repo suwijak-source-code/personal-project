@@ -8,9 +8,6 @@ function AdminMain() {
       <main>
         <div>
           <div>
-            <h2>Welcome Admin.</h2>
-          </div>
-          <div>
             <Admin />
           </div>
         </div>

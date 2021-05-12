@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import "./adminMain.css";
 
 function AdminMain() {
   const history = useHistory();
@@ -16,15 +17,32 @@ function AdminMain() {
 
   return (
     <>
-      <div>
-        <button name="createExhibition" onClick={handleChangePage}>
-          Create an exhibition.
-        </button>
-      </div>
-      <div>
-        <button name="createContent" onClick={handleChangePage}>
-          Create content.
-        </button>
+      <div className="form">
+        <div className="main">
+          <div className="welcome">
+            <h2>Welcome Admin.</h2>
+          </div>
+          <div className="admin">
+            <div>
+              <button
+                name="createExhibition"
+                onClick={handleChangePage}
+                className="createAnExhibition"
+              >
+                Create an exhibition.
+              </button>
+            </div>
+            <div>
+              <button
+                name="createContent"
+                onClick={handleChangePage}
+                className="createContent"
+              >
+                Create content.
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

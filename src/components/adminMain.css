@@ -1,0 +1,44 @@
+.form {
+  border-radius: 20px;
+  width: 1400px;
+  display: flex;
+  margin: 50px;
+  /* background-color: lightcoral; */
+  justify-content: center;
+}
+.main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightcyan;
+  border: #808080;
+  border-radius: 20px;
+  padding: 20px;
+}
+.admin {
+  margin: 25px 0 50px 0;
+  padding-top: 50px;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.welcome {
+  padding-top: 20px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.createAnExhibition {
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.createContent {
+  border-radius: 5px;
+  margin: 10px;
+}
