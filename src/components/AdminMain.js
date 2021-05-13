@@ -12,6 +12,8 @@ function AdminMain() {
       history.push("/exhibitioncreate");
     } else if (e.target.name === "createContent") {
       history.push("/createcontent");
+    } else if (e.target.name === "deleteContent") {
+      history.push("/deletecontent");
     }
   };
 
@@ -29,7 +31,7 @@ function AdminMain() {
                 onClick={handleChangePage}
                 className="createAnExhibition"
               >
-                Create an exhibition.
+                Create an exhibition
               </button>
             </div>
             <div>
@@ -38,7 +40,16 @@ function AdminMain() {
                 onClick={handleChangePage}
                 className="createContent"
               >
-                Create content.
+                Create content
+              </button>
+            </div>
+            <div>
+              <button
+                name="deleteContent"
+                onClick={handleChangePage}
+                className="deleteContent"
+              >
+                Delete Content
               </button>
             </div>
           </div>

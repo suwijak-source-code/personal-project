@@ -7,7 +7,8 @@ import Register from "./pages/Register";
 import Admin from "./pages/Admin";
 import Exhibitions from "./pages/Exhibitions";
 import CreateContent from "./pages/CreateContent";
-import CreateExhibition from "./pages/CreateExhibition";
+import AdminCreateExhibition from "./pages/CreateExhibition";
+import DeleteAContent from "./pages/Delete";
 
 const privateRoute = [
   {
@@ -46,7 +47,11 @@ const adminRoute = [
   },
   {
     path: "/exhibitioncreate",
-    component: CreateExhibition,
+    component: AdminCreateExhibition,
+  },
+  {
+    path: "/deletecontent",
+    component: DeleteAContent,
   },
 ];
 

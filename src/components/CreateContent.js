@@ -10,7 +10,9 @@ const Admin = () => {
     exhibitionId: "",
   });
   const [files, setFiles] = useState(null);
+
   const history = useHistory();
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setInput((prev) => ({ ...prev, [name]: value }));
@@ -38,12 +40,14 @@ const Admin = () => {
         text: "",
         exhibitionId: "",
       });
+      history.push("/admin");
       // alert("Content has created.");
       // history.push("/admin");
     } catch (err) {
       console.dir(err);
     }
   };
+
   return (
     <>
       <div className="content_form">
